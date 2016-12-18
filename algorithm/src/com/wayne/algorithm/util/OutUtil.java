@@ -1,18 +1,15 @@
 package com.wayne.algorithm.util;
 
+import java.util.Arrays;
+
 public class OutUtil {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 	
 	public static void printAry(int [] ary) {
-		int i = 1;
-		for(int tmp : ary) {
-			System.out.println(i + ":" + tmp);
-			i++;
-		}
+		System.out.println(Arrays.toString(ary));
+//		int i = 1;
+//		for(int tmp : ary) {
+//			System.out.println(i + ":" + tmp);
+//			i++;
+//		}
 	}
 }
